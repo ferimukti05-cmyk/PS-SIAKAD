@@ -1,50 +1,57 @@
-# 🎓 SIAKAD - Sistem Informasi Akademik
+# 🎓 SIAKAD — Sistem Informasi Akademik Berbasis Web
 
-SIAKAD adalah aplikasi berbasis web yang digunakan untuk mengelola sistem informasi akademik kampus. Aplikasi ini mendukung manajemen data mahasiswa, dosen, jadwal perkuliahan, absensi, serta laporan akademik dengan sistem multi-role (Akademik, Dosen, Mahasiswa).
+![PHP](https://img.shields.io/badge/PHP-Native-blue)
+![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
+![Status](https://img.shields.io/badge/Status-Development-green)
+![License](https://img.shields.io/badge/License-Educational-lightgrey)
 
----
-
-## 📌 Deskripsi Aplikasi
-
-SIAKAD dirancang untuk membantu pengelolaan aktivitas akademik secara terpusat dan terstruktur. Sistem ini memiliki 3 jenis pengguna utama:
-
-- 👨‍💼 Admin Akademik
-- 👨‍🏫 Dosen
-- 👨‍🎓 Mahasiswa
-
-Setiap role memiliki dashboard dan hak akses yang berbeda sesuai dengan kebutuhan masing-masing.
+SIAKAD adalah aplikasi **Sistem Informasi Akademik berbasis web** yang dirancang untuk membantu pengelolaan data akademik secara terstruktur dan terpusat.  
+Aplikasi ini mendukung manajemen pengguna multi-role (Admin Akademik, Dosen, dan Mahasiswa) dengan sistem autentikasi dan pengolahan data real-time menggunakan PHP dan MySQL.
 
 ---
 
-## 🚀 Fitur Utama
+## 📖 Tentang Project
 
-### 🔐 Autentikasi & Manajemen User
-- Login multi-role
-- Sistem autentikasi berbasis session
-- API untuk manajemen pengguna
+Project ini dikembangkan sebagai implementasi sistem informasi akademik sederhana yang mencakup:
+
+- Manajemen data pengguna
+- Pengelolaan jadwal perkuliahan
+- Sistem absensi mahasiswa
+- Pembuatan dan monitoring laporan akademik
+- Dashboard berdasarkan role pengguna
+
+Sistem dirancang menggunakan **arsitektur modular berbasis API sederhana** untuk memisahkan logika backend dan tampilan frontend.
+
+---
+
+## ✨ Fitur Utama
+
+### 🔐 Autentikasi & Role Management
+- Login multi-role (Akademik, Dosen, Mahasiswa)
+- Session-based authentication
+- Pembatasan akses berdasarkan role
 
 ### 📅 Manajemen Jadwal
-- Kelola jadwal perkuliahan (Admin Akademik)
-- Lihat jadwal dosen
-- Lihat jadwal mahasiswa
+- Tambah, edit, hapus jadwal (Admin)
+- Akses jadwal dosen
+- Akses jadwal mahasiswa
 
-### 📝 Manajemen Absensi
-- Buat absensi
-- Input absensi mahasiswa
-- Kelola data absensi
-- API absensi
+### 📝 Sistem Absensi
+- Pembuatan sesi absensi
+- Input kehadiran mahasiswa
+- Monitoring data absensi
 
 ### 📊 Laporan Akademik
 - Generate laporan absensi
-- Lihat laporan per mahasiswa/dosen
-- API laporan
+- Filter berdasarkan mahasiswa/dosen
+- Tampilan laporan terstruktur
 
-### 📈 Dashboard
+### 📈 Dashboard Interaktif
 - Dashboard Akademik
 - Dashboard Dosen
 - Dashboard Mahasiswa
 
 ---
 
-## 🗂 Struktur Folder
+## 🏗 Arsitektur Sistem
 
